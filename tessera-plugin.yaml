@@ -1,0 +1,40 @@
+id: raketen_skolmat
+version: 0.1.0
+api: '0.10'
+icon: calendar
+maintainer: ExhaleSthlm
+license: MIT
+stage: beta
+topics: [home]
+attributes: [cloud, ai-developed]
+requires:
+  esphome: 2026.6.2
+boards: any
+flash_kb: 8
+permissions:
+  network: [raw.githubusercontent.com]
+privacy: https://github.com/ExhaleSthlm/tessera-plugin-raketen-skolmat#privacy
+tiles:
+  - id: today
+    name: tile_name
+    icon: calendar
+    sizes: {min: 1x2, max: 2x2}
+    memory: 4000
+    data: menu
+    example: tile_example
+fetch:
+  - id: menu
+    url: https://raw.githubusercontent.com/ExhaleSthlm/tessera-plugin-raketen-skolmat/main/data/menu.json
+    every: 1h
+    map:
+      items: $.days[*]
+      fields:
+        start: {path: start, as: number}
+        end: {path: end, as: number}
+        t0: t0
+        t1: t1
+        t2: t2
+        t3: t3
+        t4: t4
+        t5: t5
+      limit: 5

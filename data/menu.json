@@ -1,0 +1,80 @@
+{
+  "source": "https://kulturskolanraketen.se/matsedel/",
+  "week": 43,
+  "days": [
+    {
+      "date": "2026-10-19",
+      "start": 1792360800,
+      "end": 1792447200,
+      "meals": [
+        "Asiatisk köttfärssås, serveras med pasta fusilli",
+        "Asiatisk soja-och linsfärssås, serveras med pasta fusilli"
+      ],
+      "t0": "Asiatisk köttfärssås, serveras med pasta fusi",
+      "t1": "lli\n\nAsiatisk soja-och linsfärssås, serveras m",
+      "t2": "ed pasta fusilli",
+      "t3": "",
+      "t4": "",
+      "t5": ""
+    },
+    {
+      "date": "2026-10-20",
+      "start": 1792447200,
+      "end": 1792533600,
+      "meals": [
+        "Sejkrisp, serveras med kokt potatis, dansk remouladsås, ärtor och citron",
+        "Vegoschnitzel, serveras med kokt potatis, dansk remouladsås, ärtor och citron"
+      ],
+      "t0": "Sejkrisp, serveras med kokt potatis, dansk remou",
+      "t1": "ladsås, ärtor och citron\n\nVegoschnitzel, serve",
+      "t2": "ras med kokt potatis, dansk remouladsås, ärtor",
+      "t3": " och citron",
+      "t4": "",
+      "t5": ""
+    },
+    {
+      "date": "2026-10-21",
+      "start": 1792533600,
+      "end": 1792620000,
+      "meals": [
+        "Curry-och limekyckling, serveras med basmatiris",
+        "Curry/limelins- och bönsaute, serveras med basmatiris"
+      ],
+      "t0": "Curry-och limekyckling, serveras med basmatiris\n",
+      "t1": "\nCurry/limelins- och bönsaute, serveras med bas",
+      "t2": "matiris",
+      "t3": "",
+      "t4": "",
+      "t5": ""
+    },
+    {
+      "date": "2026-10-22",
+      "start": 1792620000,
+      "end": 1792706400,
+      "meals": [
+        "Nasigoreng med tofu, ägg, kikärtor och grönsaker, serveras med sojadippsås och sweet chilisås"
+      ],
+      "t0": "Nasigoreng med tofu, ägg, kikärtor och grönsa",
+      "t1": "ker, serveras med sojadippsås och sweet chilis",
+      "t2": "ås",
+      "t3": "",
+      "t4": "",
+      "t5": ""
+    },
+    {
+      "date": "2026-10-23",
+      "start": 1792706400,
+      "end": 1792792800,
+      "meals": [
+        "Färsterrin med timjan & rosmarin, serveras med kokt potatis, äppelgräddsås och lingonsylt",
+        "Sojafärsterrin med timjan & rosmarin, serveras med kokt potatis, äppelgräddsås och lingonsylt"
+      ],
+      "t0": "Färsterrin med timjan & rosmarin, serveras med ",
+      "t1": "kokt potatis, äppelgräddsås och lingonsylt\n\nS",
+      "t2": "ojafärsterrin med timjan & rosmarin, serveras m",
+      "t3": "ed kokt potatis, äppelgräddsås och lingonsylt",
+      "t4": "",
+      "t5": ""
+    }
+  ]
+}

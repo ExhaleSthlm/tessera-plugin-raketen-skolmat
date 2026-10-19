@@ -1,0 +1,18 @@
+{
+  "_meta": {"name": "English"},
+  "app": {
+    "name": "Raketen skolmat",
+    "summary": "Dagens skolmat på Kulturskolan Raketen.",
+    "tile_name": "Skolmat",
+    "tile_example": "Asiatisk köttfärssås med pasta fusilli"
+  },
+  "screen": {
+    "title": "Skolmat",
+    "waiting": "Väntar på data",
+    "missing": "Ingen matsedel för idag",
+    "failed": "Kunde inte hämta matsedel",
+    "stale": "Sparad meny",
+    "first": "Alternativ 1/2",
+    "second": "Alternativ 2/2"
+  }
+}
