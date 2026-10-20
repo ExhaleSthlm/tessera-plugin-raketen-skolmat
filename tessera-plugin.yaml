@@ -1,5 +1,5 @@
 id: raketen_skolmat
-version: 0.1.0
+version: 0.2.0
 api: '0.10'
 icon: calendar
 maintainer: ExhaleSthlm
@@ -18,10 +18,12 @@ tiles:
   - id: today
     name: tile_name
     icon: calendar
-    sizes: {min: 1x2, max: 2x2}
+    sizes: {min: 1x1, max: 2x2}
     memory: 4000
     data: menu
     example: tile_example
+cards:
+  - {id: week, name: week_name, wide: true}
 fetch:
   - id: menu
     url: https://raw.githubusercontent.com/ExhaleSthlm/tessera-plugin-raketen-skolmat/main/data/menu.json

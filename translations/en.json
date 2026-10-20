@@ -4,10 +4,14 @@
     "name": "Raketen skolmat",
     "summary": "Dagens skolmat på Kulturskolan Raketen.",
     "tile_name": "Skolmat",
+    "week_name": "Veckans matsedel",
     "tile_example": "Asiatisk köttfärssås med pasta fusilli"
   },
   "screen": {
     "title": "Skolmat",
+    "week": "Veckans matsedel",
+    "missing_week": "Ingen matsedel tillgänglig",
+    "missing_monday": "Måndagens meny saknas",
     "waiting": "Väntar på data",
     "missing": "Ingen matsedel för idag",
     "failed": "Kunde inte hämta matsedel",
