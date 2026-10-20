@@ -26,7 +26,8 @@ class WeekCard : public tessera::Card {
     lv_obj_set_scroll_dir(scroll_, LV_DIR_VER);
     lv_obj_set_scrollbar_mode(scroll_, LV_SCROLLBAR_MODE_AUTO);
     // LVGL must hit this viewport to start a drag; the text passes touches through.
-    lv_obj_add_flag(scroll_, LV_OBJ_FLAG_CLICKABLE | LV_OBJ_FLAG_SCROLLABLE);
+    lv_obj_add_flag(scroll_, LV_OBJ_FLAG_CLICKABLE);
+    lv_obj_add_flag(scroll_, LV_OBJ_FLAG_SCROLLABLE);
     lv_obj_clear_flag(scroll_, LV_OBJ_FLAG_SCROLL_CHAIN_VER);
     text_ = ui::text(scroll_, Font::BODY, theme::INK);
     lv_obj_set_width(text_, std::max(1, c.width - ui::px(12)));
