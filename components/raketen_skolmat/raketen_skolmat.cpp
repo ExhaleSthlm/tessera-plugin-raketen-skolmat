@@ -25,8 +25,9 @@ class WeekCard : public tessera::Card {
     lv_obj_set_size(scroll_, c.width, c.height);
     lv_obj_set_scroll_dir(scroll_, LV_DIR_VER);
     lv_obj_set_scrollbar_mode(scroll_, LV_SCROLLBAR_MODE_AUTO);
-    lv_obj_clear_flag(scroll_, LV_OBJ_FLAG_CLICKABLE);
-    lv_obj_add_flag(scroll_, LV_OBJ_FLAG_SCROLLABLE);
+    // LVGL must hit this viewport to start a drag; the text passes touches through.
+    lv_obj_add_flag(scroll_, LV_OBJ_FLAG_CLICKABLE | LV_OBJ_FLAG_SCROLLABLE);
+    lv_obj_clear_flag(scroll_, LV_OBJ_FLAG_SCROLL_CHAIN_VER);
     text_ = ui::text(scroll_, Font::BODY, theme::INK);
     lv_obj_set_width(text_, std::max(1, c.width - ui::px(12)));
     lv_label_set_long_mode(text_, LV_LABEL_LONG_WRAP);
@@ -110,7 +111,7 @@ class TodayTile : public tessera::Tile {
     ui::set_text(date_, tessera::date_text(today->start));
     const std::string text(today->text.c_str());
     const size_t split = text.find("\n\n");
-    const bool second = split != std::string::npos && ((now / 12) % 2);
+    const bool second = split != std::string::npos && ((now / 5) % 2);
     ui::set_text(body_, split == std::string::npos ? text : second ? text.substr(split + 2) : text.substr(0, split));
     ui::set_text(footer_, stale_ ? plugin_->text("stale") : split == std::string::npos ? "" : plugin_->text(second ? "second" : "first"));
   }

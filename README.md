@@ -4,7 +4,7 @@ Privat Tessera-plugin för dagens skolmat, anpassat för en 1×2-tile på Guitio
 
 Lägg till `https://github.com/ExhaleSthlm/tessera-plugin-raketen-skolmat` som eget plugin i Tessera, bygg skärmens firmware och lägg till **Skolmat** i layouten. Ingen API-nyckel behövs.
 
-Två måltidsalternativ växlar var tolfte sekund. Tryck för att öppna hela den hämtade veckans meny i en rullbar helskärmsvy. På lördag och söndag visas kommande måndags meny om den finns publicerad, annars ”Måndagens meny saknas”. Övriga dagar utan meny visar ”Ingen matsedel för idag”.
+Två måltidsalternativ växlar var femte sekund. Tryck för att öppna hela den hämtade veckans meny i en rullbar helskärmsvy. På lördag och söndag visas kommande måndags meny om den finns publicerad, annars ”Måndagens meny saknas”. Övriga dagar utan meny visar ”Ingen matsedel för idag”.
 
 Tilen kan dras från 1×1 till 2×2. Tessera skriver storlekar som bredd × höjd: 2×1 är bred, 1×2 är hög. Uppdatera pluginet i Tessera och bygg firmware efter en pluginuppdatering.
 
