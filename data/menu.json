@@ -1,78 +1,77 @@
 {
   "source": "https://kulturskolanraketen.se/matsedel/",
-  "week": 43,
+  "week": 44,
   "days": [
     {
-      "date": "2026-10-19",
-      "start": 1792360800,
-      "end": 1792447200,
+      "date": "2026-10-26",
+      "start": 1792969200,
+      "end": 1793055600,
       "meals": [
-        "Asiatisk köttfärssås, serveras med pasta fusilli",
-        "Asiatisk soja-och linsfärssås, serveras med pasta fusilli"
+        "SKOLAN STÄNGD pga planeringsdag = fritids också stängt"
       ],
-      "t0": "Asiatisk köttfärssås, serveras med pasta fusi",
-      "t1": "lli\n\nAsiatisk soja-och linsfärssås, serveras m",
-      "t2": "ed pasta fusilli",
+      "t0": "SKOLAN STÄNGD pga planeringsdag = fritids ocks",
+      "t1": "å stängt",
+      "t2": "",
       "t3": "",
       "t4": "",
       "t5": ""
     },
     {
-      "date": "2026-10-20",
-      "start": 1792447200,
-      "end": 1792533600,
+      "date": "2026-10-27",
+      "start": 1793055600,
+      "end": 1793142000,
       "meals": [
-        "Sejkrisp, serveras med kokt potatis, dansk remouladsås, ärtor och citron",
-        "Vegoschnitzel, serveras med kokt potatis, dansk remouladsås, ärtor och citron"
+        "Korvstroganoff med ris",
+        "Kikärtsgryta med tomat, vitlök, grädde och örter, serveras med ris"
       ],
-      "t0": "Sejkrisp, serveras med kokt potatis, dansk remou",
-      "t1": "ladsås, ärtor och citron\n\nVegoschnitzel, serve",
-      "t2": "ras med kokt potatis, dansk remouladsås, ärtor",
-      "t3": " och citron",
-      "t4": "",
-      "t5": ""
-    },
-    {
-      "date": "2026-10-21",
-      "start": 1792533600,
-      "end": 1792620000,
-      "meals": [
-        "Curry-och limekyckling, serveras med basmatiris",
-        "Curry/limelins- och bönsaute, serveras med basmatiris"
-      ],
-      "t0": "Curry-och limekyckling, serveras med basmatiris\n",
-      "t1": "\nCurry/limelins- och bönsaute, serveras med bas",
-      "t2": "matiris",
+      "t0": "Korvstroganoff med ris\n\nKikärtsgryta med tomat,",
+      "t1": " vitlök, grädde och örter, serveras med ris",
+      "t2": "",
       "t3": "",
       "t4": "",
       "t5": ""
     },
     {
-      "date": "2026-10-22",
-      "start": 1792620000,
-      "end": 1792706400,
+      "date": "2026-10-28",
+      "start": 1793142000,
+      "end": 1793228400,
       "meals": [
-        "Nasigoreng med tofu, ägg, kikärtor och grönsaker, serveras med sojadippsås och sweet chilisås"
+        "Grillad färsbiff, serveras med stekt örtpotatis och tzatziki",
+        "Falafel, serveras med stekt örtpotatis och tzatziki"
       ],
-      "t0": "Nasigoreng med tofu, ägg, kikärtor och grönsa",
-      "t1": "ker, serveras med sojadippsås och sweet chilis",
-      "t2": "ås",
+      "t0": "Grillad färsbiff, serveras med stekt örtpotati",
+      "t1": "s och tzatziki\n\nFalafel, serveras med stekt ört",
+      "t2": "potatis och tzatziki",
       "t3": "",
       "t4": "",
       "t5": ""
     },
     {
-      "date": "2026-10-23",
-      "start": 1792706400,
-      "end": 1792792800,
+      "date": "2026-10-29",
+      "start": 1793228400,
+      "end": 1793314800,
       "meals": [
-        "Färsterrin med timjan & rosmarin, serveras med kokt potatis, äppelgräddsås och lingonsylt",
-        "Sojafärsterrin med timjan & rosmarin, serveras med kokt potatis, äppelgräddsås och lingonsylt"
+        "Stekt asiatisk nötfärs, serveras med basmatiris, soja och sweet chilisås",
+        "Stekt asiatisk sojafärs, serveras med basmatiris, soja och sweet chilisås"
       ],
-      "t0": "Färsterrin med timjan & rosmarin, serveras med ",
-      "t1": "kokt potatis, äppelgräddsås och lingonsylt\n\nS",
-      "t2": "ojafärsterrin med timjan & rosmarin, serveras m",
-      "t3": "ed kokt potatis, äppelgräddsås och lingonsylt",
+      "t0": "Stekt asiatisk nötfärs, serveras med basmatiri",
+      "t1": "s, soja och sweet chilisås\n\nStekt asiatisk soja",
+      "t2": "färs, serveras med basmatiris, soja och sweet c",
+      "t3": "hilisås",
+      "t4": "",
+      "t5": ""
+    },
+    {
+      "date": "2026-10-30",
+      "start": 1793314800,
+      "end": 1793401200,
+      "meals": [
+        "Mindre buffé med smått & gott serveras"
+      ],
+      "t0": "Mindre buffé med smått & gott serveras",
+      "t1": "",
+      "t2": "",
+      "t3": "",
       "t4": "",
       "t5": ""
     }
