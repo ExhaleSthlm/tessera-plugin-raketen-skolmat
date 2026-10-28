@@ -3,20 +3,6 @@
   "week": 44,
   "days": [
     {
-      "date": "2026-10-26",
-      "start": 1792969200,
-      "end": 1793055600,
-      "meals": [
-        "SKOLAN STÄNGD pga planeringsdag = fritids också stängt"
-      ],
-      "t0": "SKOLAN STÄNGD pga planeringsdag = fritids ocks",
-      "t1": "å stängt",
-      "t2": "",
-      "t3": "",
-      "t4": "",
-      "t5": ""
-    },
-    {
       "date": "2026-10-27",
       "start": 1793055600,
       "end": 1793142000,

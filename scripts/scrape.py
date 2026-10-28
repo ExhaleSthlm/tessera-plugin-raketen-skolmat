@@ -38,19 +38,33 @@ class Page(HTMLParser):
             self.parts.append(data)
 
 
-def parse(html):
+def parse(html, today=None):
     page = Page()
     page.feed(html)
     text = " ".join("".join(page.parts).split())
     section = re.search(r"VECKA\s+(\d{1,2})\b(.*?)SMAKLIG MÅLTID", text, re.I)
     if not section:
         raise ValueError("Hittar inte matsedelns början och slut")
-    week, menu = int(section[1]), section[2]
+    today = today or datetime.now(ZONE).date()
+    # A holiday week and the following week can share the same page.
+    sections = list(re.finditer(r"VECKA\s+(\d{1,2})\b(.*?)(?=VECKA\s+\d{1,2}\b|SMAKLIG MÅLTID)", text[:section.end()], re.I))
+    weeks = [parse_week(int(part[1]), part[2], today) for part in sections]
+    # At weekends the tile already expects the coming Monday.
+    target = today + timedelta(days=7 - today.weekday()) if today.weekday() >= 5 else today
+    target_week = target.isocalendar()[:2]
+    for menu in weeks:
+        if datetime.fromisoformat(menu["days"][0]["date"]).isocalendar()[:2] == target_week:
+            return menu
+    # Keep real dates when the requested week has not been published; the tile
+    # will show its missing-menu message rather than another day's meal.
+    return min(weeks, key=lambda menu: abs((datetime.fromisoformat(menu["days"][0]["date"]).date() - target).days))
+
+
+def parse_week(week, menu, today):
     pattern = r"(" + "|".join(WEEKDAYS) + r")\s+(\d{1,2})\s+(" + "|".join(MONTHS) + r")\b"
     headings = list(re.finditer(pattern, menu, re.I))
-    if len(headings) != 5:
-        raise ValueError("Förväntade fem daterade skoldagar")
-    today = datetime.now(ZONE).date()
+    if not 1 <= len(headings) <= 5:
+        raise ValueError(f"Vecka {week}: förväntade en till fem daterade skoldagar")
     days = []
     for index, heading in enumerate(headings):
         weekday = WEEKDAYS.index(heading[1].lower())
