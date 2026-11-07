@@ -1,78 +1,79 @@
 {
   "source": "https://kulturskolanraketen.se/matsedel/",
-  "week": 45,
+  "week": 46,
   "days": [
     {
-      "date": "2026-11-02",
-      "start": 1793574000,
-      "end": 1793660400,
+      "date": "2026-11-09",
+      "start": 1794178800,
+      "end": 1794265200,
       "meals": [
-        "Kycklinggryta med dragon, grädde,dijonsenap och champinjoner, serveras med kokt potatis",
-        "Quorngryta med dragon, grädde, dijonsenap och champinjoner, serveras med kokt potatis"
+        "Chili sin carne med bönor & majs. Serveras med ris samt mynta-och gurkyoghurt"
       ],
-      "t0": "Kycklinggryta med dragon, grädde,dijonsenap och",
-      "t1": " champinjoner, serveras med kokt potatis\n\nQuorng",
-      "t2": "ryta med dragon, grädde, dijonsenap och champin",
-      "t3": "joner, serveras med kokt potatis",
-      "t4": "",
-      "t5": ""
-    },
-    {
-      "date": "2026-11-03",
-      "start": 1793660400,
-      "end": 1793746800,
-      "meals": [
-        "Fiskgratäng med vitvinsås, vit sparris, dill, lagrad ost, serveras med kokt potatis",
-        "Falafel med bulgursallad och tzatziki"
-      ],
-      "t0": "Fiskgratäng med vitvinsås, vit sparris, dill, ",
-      "t1": "lagrad ost, serveras med kokt potatis\n\nFalafel m",
-      "t2": "ed bulgursallad och tzatziki",
-      "t3": "",
-      "t4": "",
-      "t5": ""
-    },
-    {
-      "date": "2026-11-04",
-      "start": 1793746800,
-      "end": 1793833200,
-      "meals": [
-        "Tomat-och linssoppa, serveras med basilikayoghurt, hembakt bröd och olivtapenad"
-      ],
-      "t0": "Tomat-och linssoppa, serveras med basilikayoghur",
-      "t1": "t, hembakt bröd och olivtapenad",
+      "t0": "Chili sin carne med bönor & majs. Serveras med ",
+      "t1": "ris samt mynta-och gurkyoghurt",
       "t2": "",
       "t3": "",
       "t4": "",
       "t5": ""
     },
     {
-      "date": "2026-11-05",
-      "start": 1793833200,
-      "end": 1793919600,
+      "date": "2026-11-10",
+      "start": 1794265200,
+      "end": 1794351600,
       "meals": [
-        "Kikärtscurry med blomkål och tofu, serveras med basmatiris samt koriander-och chilidressing"
+        "Fläskbog i grön curry och kokos, serveras med basmatiris",
+        "Quorn och linser i grön curry och kokos, serveras med basmatiris"
       ],
-      "t0": "Kikärtscurry med blomkål och tofu, serveras me",
-      "t1": "d basmatiris samt koriander-och chilidressing",
-      "t2": "",
+      "t0": "Fläskbog i grön curry och kokos, serveras med ",
+      "t1": "basmatiris\n\nQuorn och linser i grön curry och k",
+      "t2": "okos, serveras med basmatiris",
       "t3": "",
       "t4": "",
       "t5": ""
     },
     {
-      "date": "2026-11-06",
-      "start": 1793919600,
-      "end": 1794006000,
+      "date": "2026-11-11",
+      "start": 1794351600,
+      "end": 1794438000,
       "meals": [
-        "Kyckling nuggets, serveras med lättstekt grönsaksris, vitlöksmajonnäs samt sweet chili och soja",
-        "Vego nuggets, serveras med lättstekt grönsaksris, vitlöksmajonnäs samt sweet chili och soja"
+        "Falukorv i ugn med stekt potatis, serveras med rostad tomatsås samt gurkmajonnäs",
+        "Sojakorv i ugn med stekt potatis, serveras med rostad tomatsås samt gurkmajonnäs"
       ],
-      "t0": "Kyckling nuggets, serveras med lättstekt gröns",
-      "t1": "aksris, vitlöksmajonnäs samt sweet chili och s",
-      "t2": "oja\n\nVego nuggets, serveras med lättstekt grön",
-      "t3": "saksris, vitlöksmajonnäs samt sweet chili och ",
-      "t4": "soja",
+      "t0": "Falukorv i ugn med stekt potatis, serveras med r",
+      "t1": "ostad tomatsås samt gurkmajonnäs\n\nSojakorv i u",
+      "t2": "gn med stekt potatis, serveras med rostad tomats",
+      "t3": "ås samt gurkmajonnäs",
+      "t4": "",
+      "t5": ""
+    },
+    {
+      "date": "2026-11-12",
+      "start": 1794438000,
+      "end": 1794524400,
+      "meals": [
+        "Fiskgratäng med saffran-och citrussås, serveras med kokt potatis, fänkålsallad och örter",
+        "Rotfruktsgratäng med saffran-och citrusås med rostade kikärtor och örter"
+      ],
+      "t0": "Fiskgratäng med saffran-och citrussås, servera",
+      "t1": "s med kokt potatis, fänkålsallad och örter\n\nR",
+      "t2": "otfruktsgratäng med saffran-och citrusås med r",
+      "t3": "ostade kikärtor och örter",
+      "t4": "",
+      "t5": ""
+    },
+    {
+      "date": "2026-11-13",
+      "start": 1794524400,
+      "end": 1794610800,
+      "meals": [
+        "Grekiska färsbiffar, serveras med bulgursallad, tzatziki och ajvar",
+        "Grekiska sojafärsbiffar, serveras med bulgursallad, tzatziki och ajvar"
+      ],
+      "t0": "Grekiska färsbiffar, serveras med bulgursallad,",
+      "t1": " tzatziki och ajvar\n\nGrekiska sojafärsbiffar, s",
+      "t2": "erveras med bulgursallad, tzatziki och ajvar",
+      "t3": "",
+      "t4": "",
       "t5": ""
     }
   ]
