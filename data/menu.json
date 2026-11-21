@@ -1,78 +1,77 @@
 {
   "source": "https://kulturskolanraketen.se/matsedel/",
-  "week": 47,
+  "week": 48,
   "days": [
     {
-      "date": "2026-11-16",
-      "start": 1794783600,
-      "end": 1794870000,
+      "date": "2026-11-23",
+      "start": 1795388400,
+      "end": 1795474800,
       "meals": [
-        "Fläsköttbullar i tomat- & basilikasås, serveras med pasta penne och parmesandipp",
-        "Sojabullar i tomat- & basilikasås, serveras med pasta penne och parmesandipp"
+        "Vegetarisk bolognese, serveras med pasta fusilli"
       ],
-      "t0": "Fläsköttbullar i tomat- & basilikasås, server",
-      "t1": "as med pasta penne och parmesandipp\n\nSojabullar ",
-      "t2": "i tomat- & basilikasås, serveras med pasta penn",
-      "t3": "e och parmesandipp",
-      "t4": "",
-      "t5": ""
-    },
-    {
-      "date": "2026-11-17",
-      "start": 1794870000,
-      "end": 1794956400,
-      "meals": [
-        "Pyttipanna med stekt strimlat ägg, saltgurka och rödbetor",
-        "Rotfruktspytt med linser och bönor, stekt strimlat ägg, saltgurka och rödbetor"
-      ],
-      "t0": "Pyttipanna med stekt strimlat ägg, saltgurka oc",
-      "t1": "h rödbetor\n\nRotfruktspytt med linser och bönor",
-      "t2": ", stekt strimlat ägg, saltgurka och rödbetor",
-      "t3": "",
-      "t4": "",
-      "t5": ""
-    },
-    {
-      "date": "2026-11-18",
-      "start": 1794956400,
-      "end": 1795042800,
-      "meals": [
-        "Krämig Indisk linssoppa, serveras med hembakt bröd samt gurkyoghurt och hummus"
-      ],
-      "t0": "Krämig Indisk linssoppa, serveras med hembakt b",
-      "t1": "röd samt gurkyoghurt och hummus",
+      "t0": "Vegetarisk bolognese, serveras med pasta fusilli",
+      "t1": "",
       "t2": "",
       "t3": "",
       "t4": "",
       "t5": ""
     },
     {
-      "date": "2026-11-19",
-      "start": 1795042800,
-      "end": 1795129200,
+      "date": "2026-11-24",
+      "start": 1795474800,
+      "end": 1795561200,
       "meals": [
-        "Fiskgratäng med vitvinsås, dill, spenat och gulbeta. Serveras med kokt potatis",
-        "Varm bulgursallad med kikärtor, broccoli och paprika, serveras med vitlök-& chilidressing"
+        "Sprödbakad skärgårdstorsk, serveras med kokt potatis samt citron-och gurkmajonnäs",
+        "Vegoschnitzel, serveras med kokt potatis samt citron-och gurkmajonnäs"
       ],
-      "t0": "Fiskgratäng med vitvinsås, dill, spenat och gu",
-      "t1": "lbeta. Serveras med kokt potatis\n\nVarm bulgursal",
-      "t2": "lad med kikärtor, broccoli och paprika, servera",
-      "t3": "s med vitlök-& chilidressing",
+      "t0": "Sprödbakad skärgårdstorsk, serveras med kokt ",
+      "t1": "potatis samt citron-och gurkmajonnäs\n\nVegoschni",
+      "t2": "tzel, serveras med kokt potatis samt citron-och ",
+      "t3": "gurkmajonnäs",
       "t4": "",
       "t5": ""
     },
     {
-      "date": "2026-11-20",
-      "start": 1795129200,
-      "end": 1795215600,
+      "date": "2026-11-25",
+      "start": 1795561200,
+      "end": 1795647600,
       "meals": [
-        "Asiatisk pulled pork med tortillabröd, lime-& chilimajonnäs och goda grönsaker till",
-        "Asiatisk tunn skivad quorn, serveras med tortillabröd, lime-& chilimajonnäs samt goda grönsaker"
+        "Kyckling currygryta, serveras med basmatiris",
+        "Quorn currygryta, serveras med basmatiris"
       ],
-      "t0": "Asiatisk pulled pork med tortillabröd, lime-& c",
-      "t1": "hilimajonnäs och goda grönsaker till\n\nAsiatisk",
-      "t2": " tunn skivad quorn, serveras med tortillabröd, ",
-      "t3": "lime-& chilimajonnäs samt goda grönsaker",
+      "t0": "Kyckling currygryta, serveras med basmatiris\n\nQu",
+      "t1": "orn currygryta, serveras med basmatiris",
+      "t2": "",
+      "t3": "",
+      "t4": "",
+      "t5": ""
+    },
+    {
+      "date": "2026-11-26",
+      "start": 1795647600,
+      "end": 1795734000,
+      "meals": [
+        "Broccoli-och potatissoppa, serveras med hembakt bröd och hummus"
+      ],
+      "t0": "Broccoli-och potatissoppa, serveras med hembakt ",
+      "t1": "bröd och hummus",
+      "t2": "",
+      "t3": "",
+      "t4": "",
+      "t5": ""
+    },
+    {
+      "date": "2026-11-27",
+      "start": 1795734000,
+      "end": 1795820400,
+      "meals": [
+        "Hel stekt fläskhare serveras med rostad vitlökspotatis, rödvinssky samt dragoncreme",
+        "Sojafärs-och linsbiffar, serveras med rostad vitlökspotatis, rödvinssky samt dragoncreme"
+      ],
+      "t0": "Hel stekt fläskhare serveras med rostad vitlök",
+      "t1": "spotatis, rödvinssky samt dragoncreme\n\nSojafär",
+      "t2": "s-och linsbiffar, serveras med rostad vitlökspo",
+      "t3": "tatis, rödvinssky samt dragoncreme",
       "t4": "",
       "t5": ""
     }
