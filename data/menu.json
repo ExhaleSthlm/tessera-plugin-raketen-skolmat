@@ -3,64 +3,6 @@
   "week": 48,
   "days": [
     {
-      "date": "2026-11-23",
-      "start": 1795388400,
-      "end": 1795474800,
-      "meals": [
-        "Vegetarisk bolognese, serveras med pasta fusilli"
-      ],
-      "t0": "Vegetarisk bolognese, serveras med pasta fusilli",
-      "t1": "",
-      "t2": "",
-      "t3": "",
-      "t4": "",
-      "t5": ""
-    },
-    {
-      "date": "2026-11-24",
-      "start": 1795474800,
-      "end": 1795561200,
-      "meals": [
-        "Sprödbakad skärgårdstorsk, serveras med kokt potatis samt citron-och gurkmajonnäs",
-        "Vegoschnitzel, serveras med kokt potatis samt citron-och gurkmajonnäs"
-      ],
-      "t0": "Sprödbakad skärgårdstorsk, serveras med kokt ",
-      "t1": "potatis samt citron-och gurkmajonnäs\n\nVegoschni",
-      "t2": "tzel, serveras med kokt potatis samt citron-och ",
-      "t3": "gurkmajonnäs",
-      "t4": "",
-      "t5": ""
-    },
-    {
-      "date": "2026-11-25",
-      "start": 1795561200,
-      "end": 1795647600,
-      "meals": [
-        "Kyckling currygryta, serveras med basmatiris",
-        "Quorn currygryta, serveras med basmatiris"
-      ],
-      "t0": "Kyckling currygryta, serveras med basmatiris\n\nQu",
-      "t1": "orn currygryta, serveras med basmatiris",
-      "t2": "",
-      "t3": "",
-      "t4": "",
-      "t5": ""
-    },
-    {
-      "date": "2026-11-26",
-      "start": 1795647600,
-      "end": 1795734000,
-      "meals": [
-        "Broccoli-och potatissoppa, serveras med hembakt bröd och hummus"
-      ],
-      "t0": "Broccoli-och potatissoppa, serveras med hembakt ",
-      "t1": "bröd och hummus",
-      "t2": "",
-      "t3": "",
-      "t4": "",
-      "t5": ""
-    },
-    {
       "date": "2026-11-27",
       "start": 1795734000,
       "end": 1795820400,
